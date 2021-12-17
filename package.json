@@ -1,0 +1,22 @@
+{
+  "name": "yesu-server",
+  "version": "1.0.0",
+  "description": "YesU Server side application built with express/mongodb",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "JavaScript",
+    "NodeJS",
+    "MongoDB"
+  ],
+  "author": "Mukhammadyusuf Abdurakhimov",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.2"
+  }
+}
