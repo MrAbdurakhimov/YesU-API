@@ -6,8 +6,7 @@ app.use(express.urlencoded({ extended: true }));
 app.set("view engine", "ejs");
 app.use(express.static("public"));
 
-const routes = require("./routes/");
-app.use("/", routes);
+app.use("/", require("./routes/"));
 
 app.listen(process.env.PORT || 3000, () =>
   console.log("Server has been started: http://localhost:3000/")
